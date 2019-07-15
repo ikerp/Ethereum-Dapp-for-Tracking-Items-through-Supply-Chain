@@ -32,6 +32,43 @@ The item's complete info and the addresses of the actors that have interacted wi
 
 ![Class Diagram](./UMLDiagrams/ClassDiagram.png)
 
+# Instructions
+
+Clone this repository:
+```
+git clone https://github.com/ikerp/Ethereum-Dapp-for-Tracking-Items-through-Supply-Chain
+```
+Install all requisite npm packages (as listed in ```package.json```):
+```
+npm install
+```
+Launch Ganache:
+```
+ganache-cli -m "spirit supply whale amount human item harsh scare congress discover talent hamster"
+```
+In a separate terminal window, Compile smart contracts:
+```
+truffle compile
+```
+This will create the smart contract artifacts in folder ```build\contracts```.  
+Migrate smart contracts to the locally running blockchain, ganache-cli:
+```
+truffle migrate --reset
+```
+Or Migrate smart contracts to the Rinkeby testnet:
+```
+truffle migrate --reset --network rinkeby
+```
+Test smart contracts:
+```
+truffle test
+```
+In a separate terminal window, launch the DApp:
+```
+npm run dev
+```
+In the frontend, the series of buttons (Harvest, Process, Pack, ForSale, Buy, Ship, Receive, Purchase) will perform the successive actions that define the supply chain. FetchData1 and FetchData2 buttons will return the farm and the product info respectively and the item's transaction history through the supply chain will be shown on the bottom.
+
 # Contract on Rinkeby network
 Transaction hash: 0x370d287508dd3fc1552e0c272abe672926f239f2070d609c14f14042cda7770d
 
