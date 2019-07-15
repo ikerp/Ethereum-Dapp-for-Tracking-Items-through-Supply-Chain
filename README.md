@@ -39,8 +39,24 @@ Contract address: 0x23126afb1af83a60b2032ef404d81daabfb169df
 
 # Libraries
   - Based on the Udacity project code: https://github.com/udacity/nd1309-Project-6b-Example-Template
+  
   - Truffle v4.1.14 (core: 4.1.14)
+  
+    Truffle is the development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM) and a fast and easy way to set up a development enviroment for our DApp.
+  
   - Solidity v0.4.24 (solc-js)
+  
+    Solidity is an object-oriented, high-level language for implementing the required smart contracts.
+  
   - Node v10.15.3
+    
+    Node.js is the JavaScript development environment for the DApp.
+  
   - Web3.js 1.0.0-beta.55
+  
+    Web3.js is the collection of libraries which allow the interaction of our frontend Dapp with a local or remote Ethereum node.
+  
   - truffle-hdwallet-provider 1.0.14
+  
+    HD Wallet-enabled Web3 provider. Use it to sign transactions for addresses derived from a 12-word mnemonic.
+  
