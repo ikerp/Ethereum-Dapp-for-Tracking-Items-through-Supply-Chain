@@ -33,9 +33,9 @@ The item's complete info and the addresses of the actors that have interacted wi
 ![Class Diagram](./UMLDiagrams/ClassDiagram.png)
 
 # Contract on Rinkeby network
-Transaction hash: 0xb2517c25ca3c32d806b0e26f149d394bd77125467b5d7ee176307a36fcc1a1df
+Transaction hash: 0x370d287508dd3fc1552e0c272abe672926f239f2070d609c14f14042cda7770d
 
-Contract address: 0x69E59e8cF8465fd1Fe198c6a88803374b4d34f9E
+Contract address: 0x23126afb1af83a60b2032ef404d81daabfb169df
 
 # Libraries
   - Based on the Udacity project code: https://github.com/udacity/nd1309-Project-6b-Example-Template
